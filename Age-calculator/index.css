@@ -1,0 +1,47 @@
+.age-text{
+   min-height:100vh;
+   display:flex;
+   flex-direction:column;
+   justify-content: center;
+   align-items: center;
+   background-image: linear-gradient(to right, #403a2d, #3E5151);;
+}
+.input-box{
+    border:2px solid rgb(237, 233, 233);
+    border-radius:10px;
+    background-image: linear-gradient(to right, #DECBA4, #3E5151);;
+    box-shadow:2px 2px 3px grey;
+}
+.input-box1{
+    margin:2rem;
+}
+.calculate-btn{
+    
+    border-radius:10px;
+}
+.btn{
+    padding:10px 12px;
+    background-color: orange;
+    color:white;
+    font-size:22px;
+}
+.age{
+    color:white;
+    font-size:50px;
+}
+.date1{
+    padding:10px 19px;
+    margin-right:20px;
+    font-size:20px;
+}
+/* .input-box input::-webkit-calendar-picker-indicator{
+    top:0;
+    bottom:0;
+    right:0;
+    bottom:0;
+    width:auto;
+    position:absolute;
+    background-position:calc(100%-10px);
+    background-size:30px;
+    cursor: pointer;
+} */
